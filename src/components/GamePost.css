@@ -1,0 +1,41 @@
+.game-post {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-post-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.829);
+}
+
+.game-post-content {
+  position: relative;
+  max-width: 1200px;
+  background-color: #181818;
+  align-items: center;
+}
+
+.game-post-content img {
+  display: block;
+  width: 600px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+}
+
+.game-post-content h4 {
+  color: white;
+  text-align: center;
+}

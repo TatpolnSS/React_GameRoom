@@ -1,0 +1,26 @@
+.app-header {
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: whitesmoke;
+  border-width: 2px;
+}
+
+.app-header-logo {
+  height: 40px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%)
+    hue-rotate(180deg);
+}
+
+.app-header h1 {
+  color: #f7f7f7;
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
